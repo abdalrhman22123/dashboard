@@ -1,0 +1,71 @@
+:root
+{
+    --bg-color:#0E0E0E;
+    --font-color:#ffffff;
+}
+body
+{
+    width: 100%;
+    padding: 0;
+    margin: o auto;
+    background-color: var(--bg-color);
+}
+.log
+{
+    margin-left: 60%;
+    width: 40.2%;
+    position: absolute;
+    /* float: right; */
+}
+.in
+{
+    font-family: "Inter", sans-serif;
+    color: var(--font-color);
+    font-weight: 600;
+    font-size: 1.5vw;
+    margin-top: 14%;
+    position: absolute;
+    margin-left: 24%;
+}
+.email
+{
+    font-family: "Inter", sans-serif;
+    color: var(--font-color);
+    font-weight: 600;
+    font-size: 1.1vw;
+    margin-top: 20%;
+    position: absolute;
+    margin-left: 9%;
+}
+.rec1
+{
+    width: 799px;
+height: 42px;
+border-radius: 3px;
+border: 1px solid #D7D7D7;
+position: absolute;
+margin-top: 22%;
+margin-left: 9%;
+}
+.pass
+{
+    font-family: "Inter", sans-serif;
+    color: var(--font-color);
+    font-weight: 600;
+    font-size: 1.1vw;
+    margin-top: 26%;
+    position: absolute;
+    margin-left: 9%;
+}
+.rec2
+{
+    width: 799px;
+height: 42px;
+border-radius: 3px;
+border: 1px solid #D7D7D7;
+position: absolute;
+margin-top: 28%;
+margin-left: 9%;
+}
+
+

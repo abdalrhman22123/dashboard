@@ -1,0 +1,18 @@
+.sub
+{
+    display: flex;
+width: 184px;
+height: 41px;
+padding: 6px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 3px;
+background: #ffffff;
+position: absolute;
+font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 0.8vw;
+    margin-top: 35%;
+    margin-left: 21%;
+}
