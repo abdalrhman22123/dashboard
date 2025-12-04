@@ -1,0 +1,43 @@
+body { 
+    margin:0; 
+    background:#111; 
+    font-family:Arial; 
+    color:#fff; }
+.sidebar { 
+    width:240px; 
+    background:#0d0d0d; 
+    height:100vh; 
+    position:fixed; 
+    padding:20px; }
+.sidebar ul 
+{ list-style:none; 
+    padding:0; }
+.sidebar li 
+{ margin:15px 0; 
+    color:#ccc; 
+    cursor:pointer; }
+.recs
+{
+    width: 85%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 14%;
+}
+.menu
+{
+    margin-left: 22%;
+    width: 70%;
+    margin-top: 3%;
+}
+.logoo
+{
+    display: flex;
+    gap: 20px;
+}
+.people
+{
+    position: absolute;
+    margin-left: 47%;
+    width: 25%;
+    margin-top: 5%;
+}
