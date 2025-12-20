@@ -37,7 +37,31 @@ body {
 .people
 {
     position: absolute;
-    margin-left: 47%;
+    margin-left: 43%;
     width: 25%;
+    margin-top: 6%;
+}
+.me 
+{
+    position: absolute;
+    width: 3.5%;
+    margin-left: 16%;
     margin-top: 5%;
+}
+.wel
+{
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.numb
+{
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccc;
 }

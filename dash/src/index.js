@@ -4,13 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Routingapp from './routingapp';
 import Log from './pages/login';
-import Sign from './pages/signin';
 import Home from './pages/Home';
+import Contact from './pages/contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <Routingapp />
   </React.StrictMode>
 );
 

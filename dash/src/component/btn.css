@@ -12,7 +12,8 @@ background: #ffffff;
 position: absolute;
 font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 0.8vw;
+    font-size: 1vw;
     margin-top: 36%;
     margin-left: 21%;
+    color: black;
 }
