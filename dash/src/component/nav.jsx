@@ -7,6 +7,7 @@ import use from "../assets/user.svg"
 import set from "../assets/setting.svg"
 import log from "../assets/log-out.svg"
 import "./nav.css"
+import { Link } from 'react-router-dom';
 const Nav = () => {
     return ( <>
     <div class="sidebar">
@@ -29,7 +30,9 @@ const Nav = () => {
     <li>Projects</li>
     </div>
     <div className='drop'>
+        <Link to="//project-editor">
         <div>projects List</div> <br />
+        </Link>
         <div>project editor</div> <br />
         <div>Add projects</div> <br />
     </div>

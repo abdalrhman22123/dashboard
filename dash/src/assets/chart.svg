@@ -1,0 +1,21 @@
+<svg width="189" height="162" viewBox="0 0 189 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="1" y1="4.37114e-08" x2="0.999993" y2="160" stroke="white" stroke-width="2"/>
+<line x1="189" y1="161" y2="161" stroke="white" stroke-width="2"/>
+<line x1="189" y1="138" y2="138" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+<line x1="189" y1="125" y2="125" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+<line x1="189" y1="112" y2="112" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+<line x1="189" y1="98" y2="98" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+<line x1="189" y1="85" y2="85" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+<line x1="189" y1="72" y2="72" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+<line x1="189" y1="59" y2="59" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+<line x1="189" y1="46" y2="46" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+<line x1="189" y1="33" y2="33" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+<line x1="189" y1="18" y2="18" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+<path d="M15 101C15 99.8954 15.8954 99 17 99H26C27.1046 99 28 99.8954 28 101V160H15V101Z" fill="#A12433"/>
+<path d="M38 86C38 84.8954 38.8954 84 40 84H49C50.1046 84 51 84.8954 51 86V160H38V86Z" fill="#A12433"/>
+<path d="M61 34C61 32.8954 61.8954 32 63 32H72C73.1046 32 74 32.8954 74 34V160H61V34Z" fill="#A12433"/>
+<path d="M84 66C84 64.8954 84.8954 64 86 64H95C96.1046 64 97 64.8954 97 66V160H84V66Z" fill="#A12433"/>
+<path d="M107 53C107 51.8954 107.895 51 109 51H118C119.105 51 120 51.8954 120 53V160H107V53Z" fill="#A12433"/>
+<path d="M130 129C130 127.895 130.895 127 132 127H141C142.105 127 143 127.895 143 129V160H130V129Z" fill="#A12433"/>
+<path d="M153 86C153 84.8954 153.895 84 155 84H164C165.105 84 166 84.8954 166 86V160H153V86Z" fill="#A12433"/>
+</svg>

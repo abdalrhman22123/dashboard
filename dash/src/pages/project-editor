@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background: #0b0b0b;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.sidebar nav a {
+  display: block;
+  padding: 12px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.sidebar nav a.active,
+.sidebar nav a:hover {
+  color: #fff;
+  background: #1a1a1a;
+  border-radius: 6px;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Topbar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: #121212;
+}
+
+.topbar input {
+  width: 60%;
+  padding: 8px;
+  background: #1e1e1e;
+  border: none;
+  color: #fff;
+}
+
+.top-icons span {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  padding: 20px;
+}
+
+.card {
+  background: #141414;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+  color: #bbb;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  background: #1c1c1c;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 6px;
+}
+
+/* Upload */
+.upload-box {
+  background: #1c1c1c;
+  padding: 30px;
+  text-align: center;
+  border: 2px dashed #333;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags span {
+  background: #222;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.primary {
+  background: #fff;
+  color: #000;
+}
+
+button.danger {
+  background: transparent;
+  border: 1px solid #444;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background: #0b0b0b;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  margin-right: 15px;
+  color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .topbar input {
+    width: 100%;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

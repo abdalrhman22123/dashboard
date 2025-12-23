@@ -59,9 +59,261 @@ body {
 .numb
 {
     position: absolute;
-    margin-left: 22%;
-    margin-top: 10%;
-    font-size: 30px;
+    margin-left: 16%;
+    margin-top: 15%;
+    font-size: 35px;
     font-weight: bold;
     color: #ffffff;
+}
+.total
+{
+    position: absolute;
+    margin-left: 16.5%;
+    margin-top: 17%;
+    font-size: 24px;
+    color: #888888;
+    font-weight: bold;
+}
+.green
+{
+    position: absolute;
+    width: 5%;
+    margin-left: 17%;
+    margin-top: 19.4%;
+}
+.percent
+{
+    position: absolute;
+    margin-left: 18.2%;
+    margin-top: 21%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.line
+{
+    position: absolute;
+    width: 0.1%;
+    margin-left: 27%;
+    margin-top: 14%;
+}
+.percent2
+{
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 15%;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.growth
+{
+    position: absolute;
+    margin-left: 31.7%;
+    margin-top: 17%;
+    font-size: 24px;
+    color: #888888;
+    font-weight: bold;
+}
+.red
+{
+    position: absolute;
+    width: 5%;
+    margin-left: 32.3%;
+    margin-top: 19.4%;
+}
+.perc
+{
+    position: absolute;
+    margin-left: 33.5%;
+    margin-top: 21%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.num
+{
+    position: absolute;
+    margin-left: 74%;
+    margin-top: 5%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.income
+{
+    position: absolute;
+    margin-left: 74%;
+    margin-top: 7.4%;
+    font-size: 24px;
+    color: #888888;
+    font-weight: bold;
+}
+.lines
+{
+    position: absolute;
+    width: 23%;
+    margin-left: 74%;
+    margin-top: 13%;
+}
+.chart
+{
+    position: absolute;
+    width: 18%;
+    margin-left: 18%;
+    margin-top: 34%;
+}
+.k
+{
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 30%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.deals
+{
+    position: absolute;
+    margin-left: 16.4%;
+    margin-top: 31.5%;
+    font-size: 24px;
+    color: #888888;
+    font-weight: bold;
+}
+.percent3
+{
+    position: absolute;
+    margin-left: 44%;
+    margin-top: 30%;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.views
+{
+    position: absolute;
+    margin-left: 44%;
+    margin-top: 31.7%;
+    font-size: 24px;
+    color: #888888;
+    font-weight: bold;
+}
+.up
+{
+    position: absolute;
+    width: 19%;
+    margin-left:  45.6%;
+    margin-top: 32.4%;
+}
+.cate
+{
+    position: absolute;
+    margin-left: 73%;
+    margin-top: 38.5%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.cir
+{
+    position: absolute;
+    width: 27%;
+    margin-left: 72%;
+    margin-top: 44%;
+}
+.cirs
+{
+    position: absolute;
+    width: 1.4%;
+    margin-left: 73%;
+    margin-top: 68%;
+}
+.e-co
+{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 68%;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.port
+{
+    position: absolute;
+    margin-left:  75%;
+    margin-top: 71%;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.lo
+{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 74%;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.app
+{
+    position: absolute;
+    margin-left:  75%;
+    margin-top: 77%;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.Revenue
+{
+    position: absolute;
+    margin-left:  16%;
+    margin-top: 55%;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.curves
+{
+    position: absolute;
+    width: 45%;
+    margin-left: 19%;
+    margin-top: 59.3%;
+}
+.type
+{
+    position: absolute;
+    width: 74%;
+    margin-left: 18%;
+    margin-top: 85%;
+}
+.logoss
+{
+    position: absolute;
+    width: 75%;
+    margin-left: 18%;
+    margin-top: 149.4%;
+}
+.vendor
+{
+    position: absolute;
+    width: 30%;
+    margin-left: 16%;
+    margin-top: 167%;
+}
+.detailss
+{
+    position: absolute;
+    width: 40%;
+    margin-left: 53%;
+    margin-top: 168%;
+}
+.store
+{
+    position: absolute;
+    width: 19%;
+    margin-left: 53%;
+    margin-top: 190%;
+
 }
