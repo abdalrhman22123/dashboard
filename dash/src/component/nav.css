@@ -4,7 +4,8 @@
     background:#0d0d0d; 
     height:100vh; 
     position:fixed; 
-    padding:20px; }
+    /* padding:5px; */
+ }
 .sidebar ul 
 { list-style:none; 
     padding:0; }

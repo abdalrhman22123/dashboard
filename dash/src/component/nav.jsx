@@ -30,10 +30,12 @@ const Nav = () => {
     <li>Projects</li>
     </div>
     <div className='drop'>
-        <Link to="//project-editor">
+        <Link to="/project">
         <div>projects List</div> <br />
         </Link>
+        <Link to="/projecteditor">
         <div>project editor</div> <br />
+        </Link>
         <div>Add projects</div> <br />
     </div>
     <div className='jobs'>
@@ -41,16 +43,22 @@ const Nav = () => {
     <li>Jobs</li>
     </div>
     <div className='icon'>
-     <img className='use' src={use} />   
+     <img className='use' src={use} />  
+     <Link to="/profile">
     <li>User Profile</li>
+     </Link> 
     </div>
     <div className='icon'>
      <img className='set' src={set} />
+     <Link to="/settings">
     <li>settings</li>
+     </Link>
     </div>
     <div className='icon'>
     <img className='logout' src={log} />
+    <Link to="/">
     <li>Log Out</li>
+    </Link>
     </div>
     </ul>
     </div>
