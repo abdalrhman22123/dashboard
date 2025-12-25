@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+.main-container {
+    display: flex;
+    min-height: calc(100vh - 70px);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #1a1a1a;
+    border-right: 1px solid #2a2a2a;
+    padding: 1.5rem 0;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    color: #b0b0b0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #2a2a2a;
+    color: #00d9ff;
+}
+
+.nav-item.active {
+    background-color: #2a2a2a;
+    color: #00d9ff;
+    border-left: 3px solid #00d9ff;
+}
+
+.nav-icon {
+    font-size: 1.2rem;
+}
+
+/* Content Area */
+.content {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.page-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+/* Contact Grid */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #2a2a2a;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    color: #b0b0b0;
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea {
+    background-color: #0a0a0a;
+    border: 1px solid #2a2a2a;
+    color: #e0e0e0;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #00d9ff;
+}
+
+.form-group textarea {
+    resize: vertical;
+    font-family: inherit;
+}
+
+.submit-btn {
+    background-color: #00d9ff;
+    color: #0a0a0a;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #00b8d4;
+}
+
+/* Info Cards */
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.info-card {
+    background-color: #0a0a0a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #2a2a2a;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    border-color: #00d9ff;
+}
+
+.info-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-card h3 {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.info-card p {
+    color: #b0b0b0;
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+}
+
+/* Social Section */
+.social-section {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #2a2a2a;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #2a2a2a;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #2a2a2a;
+    border-color: #00d9ff;
+    color: #00d9ff;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+}

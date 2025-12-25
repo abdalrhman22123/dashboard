@@ -6,6 +6,7 @@ import ProjectEditor from './pages/projecteditor';
 import Proj from './pages/projects';
 import Profile from './pages/profile';
 import Settings from './pages/settings';
+import Cont from './pages/contactme';
 const Routingapp = () => {
     return ( 
     <BrowserRouter>
@@ -16,6 +17,7 @@ const Routingapp = () => {
         <Route path="/project" element={<Proj />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/contactme" element={<Cont />} />
     </Routes>
     </BrowserRouter>
      );

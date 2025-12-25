@@ -40,7 +40,9 @@ const Nav = () => {
     </div>
     <div className='jobs'>
     <img className='job' src={Job} />
-    <li>Jobs</li>
+    <Link to="/contactme">
+    <li>Contact me</li>
+    </Link>
     </div>
     <div className='icon'>
      <img className='use' src={use} />  
